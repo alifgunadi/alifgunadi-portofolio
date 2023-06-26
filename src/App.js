@@ -1,25 +1,51 @@
-import logo from './logo.svg';
+import React, { useState, useEffect } from 'react';
 import './App.css';
+import Header from './components/header/Header';
+import Home from './components/home/Home';
+import { ProgressBar } from 'react-loader-spinner';
+import Skills from './components/skills/Skills';
+import Project from './components/projects/Project';
 
-function App() {
+const App = () => {
+  const [isLoading, setIsLoading] = useState(true);
+
+  useEffect(() => {
+    setTimeout(() => {
+      setIsLoading(false);
+    }, 1000);
+  }, []);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app">
+      {isLoading ? (
+          <ProgressBar
+          height="80"
+          width="80"
+          ariaLabel="progress-bar-loading"
+          wrapperStyle={{
+            position: 'fixed',
+            top: '50%',
+            left: '50%',
+            transform: 'translate(-50%, -50%)',
+          }}
+          wrapperClass="progress-bar-wrapper"
+          borderColor="black"
+          barColor="grey"
+          className="progress-bar"
+        />
+      ) : (
+        <>
+          <Header />
+          <main className='main'>
+            <Home />
+            <Skills />
+            <Project />
+          </main>
+        </>
+      )}
     </div>
   );
-}
+};
 
 export default App;
+

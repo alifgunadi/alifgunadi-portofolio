@@ -60,7 +60,8 @@
   /* border: 1px solid #000; */
   color: black;
   font-size: 25px;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+  /* box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15); */
+  filter: drop-shadow(0 10px 10px black);
 }
 
 .card-second {
@@ -72,7 +73,8 @@
   /* border: 1px solid #000; */
   color: black;
   font-size: 25px;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+  /* box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15); */
+  filter: drop-shadow(0 10px 10px black);
 }
 .card-third {
   width: 150px;
@@ -83,7 +85,8 @@
   /* border: 1px solid #000; */
   color: black;
   font-size: 25px;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+  /* box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15); */
+  filter: drop-shadow(0 10px 10px black);
 }
 
 .card-forth {
@@ -95,7 +98,8 @@
   /* border: 1px solid #000; */
   color: black;
   font-size: 25px;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+  /* box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15); */
+  filter: drop-shadow(0 10px 10px black);
 }
 
 .card-fifth {
@@ -107,7 +111,8 @@
   /* border: 1px solid #000; */
   color: black;
   font-size: 25px;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+  /* box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15); */
+  filter: drop-shadow(0 10px 10px black);
 }
 
 .card-sixth {
@@ -119,7 +124,8 @@
   /* border: 1px solid #000; */
   color: black;
   font-size: 25px;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+  /* box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15); */
+  filter: drop-shadow(0 10px 10px black);
 }
 
 .card-seventh {
@@ -131,57 +137,57 @@
   /* border: 1px solid #000; */
   color: black;
   font-size: 25px;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+  /* box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15); */
+  filter: drop-shadow(0 10px 10px black);
 }
 
 .card-primary:hover {
-  transform: scale(1.07);
+  transform: scale(1.05);
   cursor: pointer;
   background-color: transparent;
-  transition: transform 0.3s ease;
-  background-color: rgb(241, 241, 241);
+  transition: transform 0.5s ease-in-out;
 }
 .card-second:hover {
-  transform: scale(1.07);
+  transform: scale(1.05);
   cursor: pointer;
   background-color: transparent;
-  transition: transform 0.3s ease;
-  background-color: rgb(241, 241, 241);
+  transition: transform 0.5s ease-in-out;
+
 }
 .card-third:hover {
-  transform: scale(1.07);
+  transform: scale(1.05);
   cursor: pointer;
   background-color: transparent;
-  transition: transform 0.3s ease;
-  background-color: rgb(241, 241, 241);
+  transition: transform 0.5s ease-in-out;
+
 }
 .card-forth:hover {
-  transform: scale(1.07);
+  transform: scale(1.05);
   cursor: pointer;
   background-color: transparent;
-  transition: transform 0.3s ease;
-  background-color: rgb(241, 241, 241);
+  transition: transform 0.5s ease-in-out;
+
 }
 .card-fifth:hover {
-  transform: scale(1.07);
+  transform: scale(1.05);
   cursor: pointer;
   background-color: transparent;
-  transition: transform 0.3s ease;
-  background-color: rgb(241, 241, 241);
+  transition: transform 0.5s ease-in-out;
+
 }
 .card-sixth:hover {
-  transform: scale(1.07);
+  transform: scale(1.05);
   cursor: pointer;
   background-color: transparent;
-  transition: transform 0.3s ease;
-  background-color: rgb(241, 241, 241);
+  transition: transform 0.5s ease-in-out;
+
 }
 .card-seventh:hover {
-  transform: scale(1.07);
+  transform: scale(1.05);
   cursor: pointer;
   background-color: transparent;
-  transition: transform 0.3s ease;
-  background-color: rgb(241, 241, 241);
+  transition: transform 0.5s ease-in-out;
+
 }
 
 /* FONTS */

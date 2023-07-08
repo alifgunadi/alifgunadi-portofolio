@@ -6,6 +6,7 @@ import { ProgressBar } from 'react-loader-spinner';
 import Skills from './components/skills/Skills';
 import Project from './components/projects/Project';
 import Footer from './components/footer/Footer';
+import ScrollUp from './components/scrollup/ScrollUp';
 
 const App = () => {
   const [isLoading, setIsLoading] = useState(true);
@@ -43,6 +44,7 @@ const App = () => {
             <Project />
             <Footer />
           </main>
+          <ScrollUp />
         </>
       )}
     </div>

@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Muhammad Alif Gunadi — Backend Software Engineer</title>
+    <meta
+      name="description"
+      content="Backend Software Engineer building enterprise and IoT backends with Node.js, TypeScript, PostgreSQL, Kafka, and MQTT."
+    />
+    <meta property="og:title" content="Muhammad Alif Gunadi — Backend Software Engineer" />
+    <meta
+      property="og:description"
+      content="Backend Software Engineer building enterprise and IoT backends with Node.js, TypeScript, PostgreSQL, Kafka, and MQTT."
+    />
+    <meta property="og:type" content="website" />
+    <link rel="icon" href="/favicon.ico" />
+    <!-- Applies the saved theme before first paint so the page never flashes the wrong theme. -->
+    <script>
+      (function () {
+        try {
+          var t = localStorage.getItem("theme");
+          document.documentElement.dataset.theme = t === "light" ? "light" : "dark";
+        } catch (e) {}
+      })();
+    </script>
+  </head>
+  <body class="font-sans leading-relaxed">
+    <div id="root"></div>
+    <script type="module" src="/src/entry-home.tsx"></script>
+  </body>
+</html>

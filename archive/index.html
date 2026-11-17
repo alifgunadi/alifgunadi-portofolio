@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project Archive — Muhammad Alif Gunadi</title>
+    <meta name="description" content="Every project I've worked on, from client systems to personal experiments." />
+    <meta property="og:title" content="Project Archive — Muhammad Alif Gunadi" />
+    <meta property="og:description" content="Every project I've worked on, from client systems to personal experiments." />
+    <meta property="og:type" content="website" />
+    <link rel="icon" href="/favicon.ico" />
+    <script>
+      (function () {
+        try {
+          var t = localStorage.getItem("theme");
+          document.documentElement.dataset.theme = t === "light" ? "light" : "dark";
+        } catch (e) {}
+      })();
+    </script>
+  </head>
+  <body class="font-sans leading-relaxed">
+    <div id="root"></div>
+    <script type="module" src="/src/entry-archive.tsx"></script>
+  </body>
+</html>

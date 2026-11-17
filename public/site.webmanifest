@@ -1,0 +1,11 @@
+{
+  "name": "Muhammad Alif Gunadi",
+  "short_name": "Alif Gunadi",
+  "icons": [
+    { "src": "/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "/favicon.svg", "sizes": "any", "type": "image/svg+xml" }
+  ],
+  "theme_color": "#151513",
+  "background_color": "#151513",
+  "display": "browser"
+}

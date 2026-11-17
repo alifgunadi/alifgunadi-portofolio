@@ -3,7 +3,7 @@ export const profile = {
   role: "Backend Software Engineer",
   tagline:
     "I build the backend behind enterprise and IoT platforms: fast APIs, event-driven services, and real-time monitoring.",
-  location: "Bekasi, Indonesia",
+  location: "Jakarta, Indonesia",
   email: "alifgunadi1303@gmail.com",
   resume: "/Muhammad-Alif-Gunadi-CV.pdf",
   github: "https://github.com/alifgunadi",

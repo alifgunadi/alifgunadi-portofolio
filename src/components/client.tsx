@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-/** Live local time in Bekasi (WIB, UTC+7). */
+/** Live local time in Jakarta (WIB, UTC+7). */
 export function Clock() {
   const format = () =>
     new Intl.DateTimeFormat("en-GB", { timeZone: "Asia/Jakarta", hour: "2-digit", minute: "2-digit" }).format(new Date());
